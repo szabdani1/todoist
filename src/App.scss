@@ -352,6 +352,7 @@ header {
     span {
       color: #0000008a;
       margin-right: 10px;
+      padding-top: 10px;
 
       svg.hidden-projects {
         -webkit-transform: rotate(-90deg);
@@ -364,7 +365,8 @@ header {
       color: #333;
       font-size: 15px;
       font-weight: bold;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
+      padding-top: 10px;
     }
   }
 
@@ -417,10 +419,11 @@ header {
   ============================================ */
 .project-delete-modal {
   position: relative;
+  width: 100px;
 
   &__inner {
     @include box-overlay();
-    z-index: 99;
+    z-index: 199;
     width: 200px;
     padding: 10px;
     top: 10px;
